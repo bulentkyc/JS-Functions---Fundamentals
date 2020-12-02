@@ -79,4 +79,29 @@ while(burger == 'yes') {
 
 }
 
-alert(burger, bun, meat);
+//alert(burger, bun, meat);
+
+
+
+function buyLaptop(money, brand) {
+    let laptop;
+    if (money >= 1000) {
+        laptop = brand;
+    }else {
+        laptop = 'Not enough money'
+    }
+    
+    console.log('This code line will not work');
+}
+
+let result = buyLaptop(5000, 'Mac');
+
+console.log(result);
+
+alert(result);
+
+
+
+
+
+//alert(laptop);
